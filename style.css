@@ -116,8 +116,13 @@ a:hover:not(.btn) {
   width: 63%;
   border-top: 1px solid #555;
   border-bottom: 1px solid #555;
-  padding: 30px 0 30px 30px;
   margin: 0 auto;
+}
+
+.message-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0 40px 20px;
 }
 
 .top-message h2 {
@@ -234,6 +239,7 @@ a:hover:not(.btn) {
 .user-comment p {
   font-size: 1rem;
   margin-bottom: 20px;
+  line-height: 1.8rem;
 }
 
 /* call to action */
@@ -394,9 +400,14 @@ hr {
   }
 
   .top-message {
-    width: 95%;
+    width: 98%;
     font-size: 0.8rem;
-    padding: 20px 0 20px 10px;
+  }
+
+  .message-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
   }
 
   .top-message h2 {
