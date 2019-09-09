@@ -205,19 +205,19 @@ a:hover:not(.btn) {
 
 .user-pic1 {
   height: 180px;
-  background-image: url(../img/user1.jpg);
+  background-image: url(user1.jpg);
   background-size: cover;
 }
 
 .user-pic2 {
   height: 180px;
-  background-image: url(../img/user2.jpg);
+  background-image: url(user2.jpg);
   background-size: cover;
 }
 
 .user-pic3 {
   height: 180px;
-  background-image: url(../img/user3.jpg);
+  background-image: url(user3.jpg);
   background-size: cover;
 }
 
