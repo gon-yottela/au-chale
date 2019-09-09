@@ -62,7 +62,7 @@ a:hover:not(.btn) {
 
 /* header-image */
 .header-image {
-  background-image: url(../img/top.jpg);
+  background-image: url(top.jpg);
   background-size: cover;
   padding: 130px 0;
 }
@@ -153,17 +153,17 @@ a:hover:not(.btn) {
 }
 
 .photo1 {
-  background-image: url(../img/coffee.jpg);
+  background-image: url(coffee.jpg);
   background-size: cover;
 }
 
 .photo2 {
-  background-image: url(../img/camera.jpg);
+  background-image: url(camera.jpg);
   background-size: cover;
 }
 
 .photo3 {
-  background-image: url(../img/book.jpg);
+  background-image: url(book.jpg);
   background-size: cover;
 }
 
