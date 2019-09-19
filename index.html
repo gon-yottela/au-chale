@@ -11,7 +11,10 @@
   <meta property="og:image" content="https://gon-yottela.github.io/au-chale/twitter-card.jpg" />
   <link rel="stylesheet" href="style.css">
   <title>au chalé -おしゃれに暮らす-</title>
-<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" charset="UTF-8"></script></head>
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" charset="UTF-8"></script>
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+</head>
 <body>
 
 <!-- ヘッダー -->
@@ -127,25 +130,83 @@
   </div>
 </div>
 
+<!-- 追加のよくある質問（jQuery練習用） -->
+<div class="faq-wrapper">
+  <div class="container">
+    <h2>よくある質問</h2>
+      <div class="faq">
+        <ul id="faq-list">
+          <li class="faq-list-item">
+            <h3>au chaléってどういう意味ですか？</h3>
+            <span>+</span>
+            <div class="answer">
+              <p>フランス語風に「おしゃれ」と読ませているだけで、特に意味はありません。</p>
+            </div>
+          </li>
+          <li class="faq-list-item">
+            <h3>au chaléを使えば誰でもおしゃれになれますか？</h3>
+            <span>+</span>
+            <div class="answer">
+              <p>はい、どなたでも簡単におしゃれになることができます。</p>
+            </div>
+          </li>
+          <li class="faq-list-item">
+            <h3>au chaléはいつでもやめられますか？</h3>
+            <span>+</span>
+            <div class="answer">
+              <p>はい。ですが、「おしゃれであろうとする心」は是非ずっと持ち続けていただきたいと願っています。</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Call to Action -->
 <div class="call-to-action" id="more">
   <div class="container">
     <h2>さあ、おしゃれに暮らそう。</h2>
     <p>おしゃれの秘密は、こちらから。</p>
-    <a href="#" class="btn">READ MORE　></a>
+    <div class="btn signup-show">READ MORE　></div>
   </div>
 </div>
+
+<!-- 資料請求のモーダル（jQuery練習用） -->
+<div class="signup-modal-wrapper" id="signup-modal">
+  <div class="modal">
+    <div id="close-modal">
+      ×
+    </div>
+    <div class="signup-form">
+      <h2>資料請求</h2>
+      <form action="#" class="form-content">
+        <div class="family-name">
+          <p>氏</p>
+          <input class="form-control" type="text">
+        </div>
+        <div class="first-name">
+          <p>名</p>
+          <input class="form-control" type="text">
+        </div>
+        <p>Email</p>
+        <input class="form-control-email" type="text">
+      </form>
+      <div class="submit-btn">
+        資料を申し込む
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!--フッター -->
 <footer>
   <div class="container">
     <div class="footer-wrapper">
 
-      <div class="footer-logo">
-        <a href="#">
-          <img src="logo.png" alt="au chalé">
-        </a>
+      <div class="footer-logo" id="top-btn">
+        <img src="logo.png" alt="au chalé">
       </div>
       <nav class="list-wrapper">
         <ul>
@@ -162,7 +223,7 @@
     </div>
   </div>
 
-    <!-- コピーライト -->
+  <!-- コピーライト -->
   <div class="copyright">
     <div class="container">
       <img src="logo.png" alt="au chalé">
@@ -178,7 +239,7 @@
     </div>
   </div>
 </footer>
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="./main.js"></script>
 </body>
 </html>
