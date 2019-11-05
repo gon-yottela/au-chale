@@ -9,7 +9,7 @@
   <meta property="og:title" content="au chalé -おしゃれに暮らす-" />
   <meta property="og:description" content="コーディングの練習用サイトです。" />
   <meta property="og:image" content="https://gon-yottela.github.io/au-chale/twitter-card.jpg" />
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>au chalé -おしゃれに暮らす-</title>
   <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" charset="UTF-8"></script>
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -22,7 +22,7 @@
   <div class="container header">
     <div class="header-logo">
       <a href="#">
-        <img src="logo.png" alt="au chalé">
+        <img src="img/logo.png" alt="au chalé">
       </a>
     </div>
     <nav class="header-list">
@@ -35,12 +35,12 @@
   </div>
 </header>
 
-<!-- ヘッダーアイキャッチ -->
+<!-- トップ画像 -->
 <div class="header-image">
   <div class="container">
     <div class="circle">
       <div class="title">
-        <img src="logo.png" alt="au chalé">
+        <img src="img/logo.png" alt="au chalé">
       </div>
       <div class="sub-title">
         <h2>おしゃれに、暮らす。</h2>
@@ -49,7 +49,7 @@
   </div>
 </div>
 
-<!-- トップ -->
+<!-- トップコメント -->
 <div class="top-wrapper">
   <div class="container">
     <div class="top-message">
@@ -63,8 +63,7 @@
   </div>
 </div>
 
-
-<!-- 写真コメント -->
+<!-- 写真とコメント -->
 <div class="container" id="life">
   <div class="middle-wrapper fluid-box">
     <section class="photo1 fluid-box-inner">
@@ -89,9 +88,6 @@
   </div>
 </div>
 
-
-
-
 <!-- 利用者の声 -->
 <div class="bottom-wrapper" id="voices">
   <div class="container">
@@ -101,7 +97,6 @@
     <div class="voice-wrapper">
       <section class="voice">
         <div class="user-pic1">
-
         </div>
         <div class="user-comment">
           <h3>User A</h3>
@@ -110,7 +105,6 @@
       </section>
       <section class="voice">
         <div class="user-pic2">
-          <img src="" alt="">
         </div>
         <div class="user-comment">
           <h3>User B</h3>
@@ -119,7 +113,6 @@
       </section>
       <section class="voice">
         <div class="user-pic3">
-          <img src="" alt="">
         </div>
         <div class="user-comment">
           <h3>User C</h3>
@@ -130,28 +123,28 @@
   </div>
 </div>
 
-<!-- 追加のよくある質問（jQuery練習用） -->
+<!-- よくある質問 -->
 <div class="faq-wrapper">
   <div class="container">
     <h2>よくある質問</h2>
       <div class="faq">
         <ul id="faq-list">
           <li class="faq-list-item">
-            <h3>au chaléってどういう意味ですか？</h3>
+            <h3>au chalé ってどういう意味ですか？</h3>
             <span>+</span>
             <div class="answer">
               <p>フランス語風に「おしゃれ」と読ませているだけで、特に意味はありません。</p>
             </div>
           </li>
           <li class="faq-list-item">
-            <h3>au chaléを使えば誰でもおしゃれになれますか？</h3>
+            <h3>au chalé を使えば誰でもおしゃれになれますか？</h3>
             <span>+</span>
             <div class="answer">
               <p>はい、どなたでも簡単におしゃれになることができます。</p>
             </div>
           </li>
           <li class="faq-list-item">
-            <h3>au chaléはいつでもやめられますか？</h3>
+            <h3>au chalé はいつでもやめられますか？</h3>
             <span>+</span>
             <div class="answer">
               <p>はい。ですが、「おしゃれであろうとする心」は是非ずっと持ち続けていただきたいと願っています。</p>
@@ -172,7 +165,7 @@
   </div>
 </div>
 
-<!-- 資料請求のモーダル（jQuery練習用） -->
+<!-- 資料請求のモーダル -->
 <div class="signup-modal-wrapper" id="signup-modal">
   <div class="modal">
     <div id="close-modal">
@@ -199,14 +192,12 @@
   </div>
 </div>
 
-
 <!--フッター -->
 <footer>
   <div class="container">
     <div class="footer-wrapper">
-
       <div class="footer-logo" id="top-btn">
-        <img src="logo.png" alt="au chalé">
+        <img src="img/logo.png" alt="au chalé">
       </div>
       <nav class="list-wrapper">
         <ul>
@@ -226,12 +217,12 @@
   <!-- コピーライト -->
   <div class="copyright">
     <div class="container">
-      <img src="logo.png" alt="au chalé">
+      <img src="img/logo.png" alt="au chalé">
       <p>&copy; 2019 au chalé</p>
       <hr>
       <div class="info">
         <ul>
-          <li>このページは <a href="https://twitter.com/GonYottela" target="_blank">ゴン</a> が作成したコーディング練習用のサイトです。</li>
+          <li>このページはゴンザレスが作成したコーディング練習用のサイトです。</li>
           <li>実在する企業・団体ではありません。</li>
           <li>写真素材は <a href="https://freephotos.cc/ja" target="_blank">FreePhotos.cc</a> と <a href="https://pixabay.com/ja/" target="_blank">Pixabay</a> を利用させていただきました。</li>
         </ul>
@@ -239,7 +230,8 @@
     </div>
   </div>
 </footer>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="./main.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>
